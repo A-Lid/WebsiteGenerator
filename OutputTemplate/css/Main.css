@@ -1,0 +1,123 @@
+.col-lg-3, .col-md-4, col-sm-6, col-xs-12 {
+    padding: 0;
+    aspect-ratio: 1;
+}
+
+Body {
+    background-color: black;
+    color: #eaa6c3;
+}
+HTML{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'dymaxionscriptregular';
+    src: url('DymaxionScript/DymaxionScript.eot');
+    src: url('DymaxionScript/DymaxionScript.eot?#iefix') format('embedded-opentype'),
+    url('DymaxionScript/DymaxionScript.woff') format('woff'),
+    url('DymaxionScript/DymaxionScript.ttf') format('truetype'),
+    url('DymaxionScript/DymaxionScript.svg#dymaxionscriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+hr{
+    border-color: #eaa6c3;
+}
+
+a {
+    color: #eaa6c3;
+}
+a:visited {
+    color: #eaa6c3;
+}
+
+/* mouse over link */
+a:hover {
+    color: #eaa6c3;
+}
+
+/* selected link */
+a:active {
+    color: #eaa6c3;
+}
+
+.modal-content{
+    background: black;
+
+}
+.modal-body{
+    background: black;
+
+}
+.modal-header
+{
+    background: black;
+
+    border-bottom: 1px solid #eaa6c3;
+}
+.modal-footer{
+    background: black;
+
+    border-bottom: 1px solid #eaa6c3;
+    border-top: 1px solid #eaa6c3;
+}
+.model-lg {
+    color: black;
+    margin-left: 60%;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 3;
+}
+
+.swap-on-hover{
+   position:relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.swap-on-hover img {
+   position: absolute;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Sets the width and height for the images*/
+}
+
+.swap-on-hover .swap-on-hover__front-image {
+    z-index: 2;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.swap-on-hover__back-image {
+    width: 100%;
+    height: 100%;
+}
+.swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+}
+
+.NotCard {
+
+    width: 130px;
+
+    height: 195px;
+
+    background: url("/Pictures/CardBack.jpg") no-repeat;
+    transition: opacity .5s linear;
+    display: inline-block;
+
+}
+
+.NotCard:hover {
+
+    background: url("/Pictures/Kenrith.jpg") no-repeat;
+    transition: opacity .5s linear;
+
+}

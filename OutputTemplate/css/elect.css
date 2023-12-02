@@ -1,0 +1,14 @@
+body{
+    background: black;
+    color: #eaa6c3;
+}
+hr{
+    border-color: #eaa6c3;
+}
+h1{
+    font-size: 80px;
+}
+img{
+    border: #eaa6c3;
+    border-width: 2px;
+}
